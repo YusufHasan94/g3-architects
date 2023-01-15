@@ -249,9 +249,48 @@ p{
     color: #727272;
 }
 /*responsive design start*/
+
+@media only screen and (max-width: 1400px) {
+    .list-container{
+        margin: 80px 40px;
+        gap: 20px;
+    }
+    .list-images{
+        gap: 20px;
+    }
+    .list-description{
+        padding: 10px 5px; 
+    }
+    /*features section start*/
+    .features-container{
+        margin: 80px 50px;
+    }
+    .feature>h1{
+        font-size: 1.5em;
+    }
+    .experience:hover{
+        width: 99%;
+    }
+    /*facts section start*/
+    .facts-container{
+        margin: 80px 50px;
+    }
+    /*worker section start*/
+    .worker-container{
+        margin: 80px 50px;
+    }
+    /*sponsor section start*/
+    .sponsor-container{
+        margin: 80px 50px;
+    }
+    .footer{
+        margin: 50px;
+    }
+}
+
 @media only screen and (max-width: 576px) {
     .title{
-        font-size: 35px;
+        font-size: 30px;
     }
     .nav{
         padding: 20px;
@@ -324,7 +363,7 @@ p{
         gap: 30px;
     }
     .feature>h1{
-        font-size: 1.5em;
+        font-size: 1em;
     }
     .features-img{
         width: 100%;
@@ -353,7 +392,7 @@ p{
     }
     .workers{
         margin: 50px 0;
-        grid-template-columns: repeat(1, 50%);
+        grid-template-columns: repeat(1, 75%);
         justify-content: center;
     }
     /*sponsor section start*/
@@ -372,39 +411,5 @@ p{
     }
     .footer>span{
         font-size: 16px;
-    }
-}
-@media only screen and (max-width: 1400px) {
-    .list-container{
-        margin: 80px 40px;
-        gap: 20px;
-    }
-    .list-images{
-        gap: 20px;
-    }
-    .list-description{
-        padding: 10px 5px; 
-    }
-    /*features section start*/
-    .features-container{
-        margin: 80px 50px;
-    }
-    .feature>h1{
-        font-size: 1.5em;
-    }
-    .experience:hover{
-        width: 99%;
-    }
-    /*facts section start*/
-    .facts-container{
-        margin: 80px 50px;
-    }
-    /*worker section start*/
-    .worker-container{
-        margin: 80px 100px;
-    }
-    /*sponsor section start*/
-    .sponsor-container{
-        margin: 100px 100px;
     }
 }
